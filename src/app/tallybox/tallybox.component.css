@@ -36,3 +36,9 @@
     background-color: #39e5b6;
     color: white;
 }
+
+.box .text{
+    font-size: 50px;
+    font-weight: 700;
+    color: #333;
+}
