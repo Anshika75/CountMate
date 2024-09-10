@@ -1,6 +1,6 @@
 .box{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #f1f1f1;
     font-family: 'Roboto', sans-serif;
@@ -8,6 +8,31 @@
     width: 900px;
     margin: 0 auto;
     border-radius: 20px;
-    padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box .minus{
+    font-size: 50px;
+    background-color: #39e5b6;
+    cursor: pointer;
+    padding: 20px 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.box .minus:hover{
+    background-color: #70b2d9;
+    color: white;
+}
+
+.box .plus{
+    font-size: 50px;
+    background-color: #70b2d9;
+    cursor: pointer;
+    padding: 20px 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.box .plus:hover{
+    background-color: #39e5b6;
+    color: white;
 }
