@@ -1,4 +1,4 @@
-.box{
+.box {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,33 +10,33 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.box .minus{
+.box .minus {
     font-size: 50px;
-    background-color: #39e5b6;
+    background-color: #fec84e;
     cursor: pointer;
     padding: 20px 40px;
     transition: all 0.3s ease-in-out;
 }
 
-.box .minus:hover{
+.box .plus:hover {
     background-color: #70b2d9;
     color: white;
 }
 
-.box .plus{
+.box .plus {
     font-size: 50px;
-    background-color: #70b2d9;
+    background-color: #fec84e;
     cursor: pointer;
     padding: 20px 40px;
     transition: all 0.3s ease-in-out;
 }
 
-.box .plus:hover{
+.box .minus:hover {
     background-color: #39e5b6;
     color: white;
 }
 
-.box .text{
+.box .text {
     font-size: 250px;
     font-weight: 700;
     color: #333;
