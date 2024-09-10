@@ -1,0 +1,13 @@
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+    min-height: 450px;
+    width: 900px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
